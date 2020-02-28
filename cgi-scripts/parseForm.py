@@ -23,10 +23,10 @@ colo = data.getvalue('color')
 print("""
 <html>
 <body>
-<style>body[background-color: &s]<style>
+<style>body[background-color: %s]<style>
 <p>
 Thanks, %s
 </p>
 </body>
 </html>
-""" % colo %v_name
+"""%colo %v_name)
